@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">" Shipping Management"</string>
+    <string name="titlect">Construction</string>
+    <string name="mact">Construction Code</string>
+    <string name="tenct">The name of construction</string>
+    <string name="diachict">" Address"</string>
+    <string name="them">Add</string>
+    <string name="xoa">Delete</string>
+    <string name="sua">Edit</string>
+    <string name="thoat">Exit</string>
+    <string name="showall">View all >>></string>
+    <string name="titlechitietct">Detail</string>
+    <string name="updata">Updata</string>
+</resources>

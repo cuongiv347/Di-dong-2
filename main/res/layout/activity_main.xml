@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.MainActivity">
+
+
+    <TextView
+        style="@style/Title"
+        android:text="@string/titlect" />
+
+    <EditText
+        android:id="@+id/txtMaCT"
+        style="@style/EditText"
+        android:hint="@string/mact" />
+
+    <EditText
+        android:id="@+id/txtTenCT"
+        style="@style/EditText"
+        android:hint="@string/tenct" />
+
+    <EditText
+        android:id="@+id/txtDiaChiCT"
+        style="@style/EditText"
+        android:hint="@string/diachict" />
+
+    <LinearLayout style="@style/Linear_btn_h">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/Button"
+            android:drawableRight="@drawable/btnthem"
+            android:text="@string/them" />
+
+        <Button
+            android:id="@+id/btnXoa"
+            style="@style/Button"
+            android:drawableRight="@drawable/btnxoa"
+            android:text="@string/xoa" />
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/Button"
+            android:drawableRight="@drawable/btnsua"
+            android:text="@string/sua" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            style="@style/Button"
+            android:drawableRight="@drawable/ic_baseline_directions_run_24"
+            android:text="@string/thoat" />
+    </LinearLayout>
+
+    <!--    <ListView-->
+    <!--        android:id="@+id/lvDanhSachCT"-->
+    <!--        style="@style/ListView"></ListView>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/showall"
+        style="@style/ShowAll_View"
+        android:background="@drawable/btnshowall"
+        android:text="@string/showall" />
+
+
+</LinearLayout>

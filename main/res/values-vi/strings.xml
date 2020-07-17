@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản Lý Vận Chuyển</string>
+    <string name="titlect">Công Trình</string>
+    <string name="mact">Mã Công Trình</string>
+    <string name="tenct">Tên Công Trình</string>
+    <string name="diachict">Địa Chỉ</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="thoat">Thoát</string>
+    <string name="showall">Xem tất cả >>></string>
+    <string name="titlechitietct">Chi tiết</string>
+    <string name="updata">Cập nhật</string>
+</resources>
