@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/matTroi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/unnamed"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.MainLoad">
+
+    <LinearLayout
+        style="@style/ImageMatTroi"
+        android:background="@drawable/mattroi">
+
+        <ImageView
+            style="@style/ImageLoad"
+            android:id="@+id/imgMatTroi"
+            android:src="@drawable/anhmattroi" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgLoad"
+        style="@style/ImageLoad"
+        android:gravity="center"
+        app:srcCompat="@drawable/loadrun" />
+
+
+</LinearLayout>

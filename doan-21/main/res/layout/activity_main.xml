@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".GiaoDien.MainActivity">
+
+    <ImageView
+        style="@style/ImageView"
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logo11111" />
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCongtrinh"
+            style="@style/ButtonMain"
+            android:background="@drawable/buttonmain12"
+            android:text="@string/congtrinh" />
+
+        <Button
+            android:id="@+id/btnVatTu"
+            style="@style/ButtonMain"
+            android:background="@drawable/buttonmain12"
+            android:text="@string/vattu" />
+
+        <Button
+            android:id="@+id/btnPhieuVC"
+            style="@style/ButtonMain"
+            android:background="@drawable/buttonmain12"
+            android:text="@string/phieu" />
+
+        <Button
+            android:id="@+id/btnCTPhieuVC"
+            style="@style/ButtonMain"
+            android:background="@drawable/buttonmain12"
+            android:text="@string/chitietphieu" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btnExit"
+            style="@style/ButtonMain"
+            android:background="@drawable/buttonmain12"
+            android:text="@string/exit" />
+    </LinearLayout>
+
+
+</LinearLayout>

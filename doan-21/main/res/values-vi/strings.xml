@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DoAnNhom21</string>
+    <string name="congtrinh">Công trình</string>
+    <string name="vattu">Vật Tư</string>
+    <string name="phieu">Phiếu vận chuyển</string>
+    <string name="all">Xem phiếu vận chuyển</string>
+    <string name="ngonngu">Ngôn Ngữ</string>
+    <string name="tiengviet">Tiếng Việt</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="mact">Mã công trình</string>
+    <string name="tenct">Tên công trình</string>
+    <string name="diachict">Địa chỉ</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="mavt">Mã vật tư</string>
+    <string name="tenvt">Tên vật tư</string>
+    <string name="dvtinh">Đơn vị tính</string>
+    <string name="giavc">Giá vận chuyển</string>
+    <string name="maphieu">Mã phiếu</string>
+    <string name="ngay">Ngày</string>
+    <string name="chitietphieu">Chi tiết phiếu vận chuyển</string>
+    <string name="soluong">Số lượng</string>
+    <string name="culy">Cự ly</string>
+    <string name="exit">Exit</string>
+</resources>

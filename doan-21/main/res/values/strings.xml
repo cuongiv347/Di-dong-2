@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DoAnNhom21</string>
+    <string name="congtrinh">Construction</string>
+    <string name="vattu">Supplies</string>
+    <string name="phieu">Shipping note</string>
+    <string name="all">Xem phiếu vận chuyển</string>
+    <string name="ngonngu">See shipping slip</string>
+    <string name="tiengviet">Vietnamese</string>
+    <string name="english">English</string>
+    <string name="diachict">Address</string>
+    <string name="them">Add</string>
+    <string name="xoa">Delete</string>
+    <string name="sua">Edit</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="mavt">Material code</string>
+    <string name="tenvt">Name supplies</string>
+    <string name="dvtinh">Unit</string>
+    <string name="giavc">Shipping cost</string>
+    <string name="maphieu">Form code</string>
+    <string name="ngay">Day</string>
+    <string name="chitietphieu">Shipping ticket details</string>
+    <string name="soluong">Amount</string>
+    <string name="culy">Distance</string>
+    <string name="exit">Exit</string>
+    <string name="mact">Building code</string>
+    <string name="tenct">Name of construction</string>
+</resources>
