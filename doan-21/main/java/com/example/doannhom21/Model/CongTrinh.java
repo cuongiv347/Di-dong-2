@@ -1,7 +1,13 @@
 package com.example.doannhom21.Model;
 
 public class CongTrinh {
-    String maCT, tenCT , diaCHiCT;
+    String maCT, tenCT , diaChiCT;
+
+    public CongTrinh(String maCT, String tenCT, String diaChiCT) {
+        this.maCT = maCT;
+        this.tenCT = tenCT;
+        this.diaChiCT = diaChiCT;
+    }
 
     public String getMaCT() {
         return maCT;
@@ -19,18 +25,18 @@ public class CongTrinh {
         this.tenCT = tenCT;
     }
 
-    public String getDiaCHiCT() {
-        return diaCHiCT;
+    public String getDiaChiCT() {
+        return diaChiCT;
     }
 
-    public void setDiaCHiCT(String diaCHiCT) {
-        this.diaCHiCT = diaCHiCT;
+    public void setDiaChiCT(String diaCHiCT) {
+        this.diaChiCT = diaCHiCT;
     }
 
-    public CongTrinh(String maCT, String tenCT, String diaCHiCT) {
+    public CongTrinh(int id, String maCT, String tenCT, String diaCHiCT) {
         this.maCT = maCT;
         this.tenCT = tenCT;
-        this.diaCHiCT = diaCHiCT;
+        this.diaChiCT = diaCHiCT;
     }
 
     @Override
@@ -38,7 +44,7 @@ public class CongTrinh {
         return "CongTrinh{" +
                 "maCT='" + maCT + '\'' +
                 ", tenCT='" + tenCT + '\'' +
-                ", diaCHiCT='" + diaCHiCT + '\'' +
+                ", diaCHiCT='" + diaChiCT + '\'' +
                 '}';
     }
 }
