@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutmm"
+    android:orientation="vertical"
+    tools:context=".GiaoDienAdd.MainThemCongTrinh">
+
+    <TextView
+        style="@style/textTile"
+        android:text="@string/congtrinh" />
+
+    <TextView
+        style="@style/textContent"
+        android:text="@string/thongtin" />
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/mact"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtMaCongTrinh"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhapmact"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/tenct"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtTenCongTrinh"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhaptenct"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/diachict"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtDiaChiCongTrinh"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/themdiachi"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/textContent"
+        android:text="@string/chucnang" />
+
+    <LinearLayout
+        style="@style/Background"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnThemCongTrinh"
+            style="@style/btnThem" />
+
+        <Button
+            android:id="@+id/btnXoaCongTrinh"
+            style="@style/btnXoa" />
+
+        <Button
+            android:id="@+id/btnSuaCongTrinh"
+            style="@style/btnSua" />
+
+        <Button
+            android:id="@+id/btnClearCongTrinh"
+            style="@style/btnClear" />
+    </LinearLayout>
+
+
+</LinearLayout>

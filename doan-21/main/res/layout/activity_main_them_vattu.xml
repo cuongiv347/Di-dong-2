@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutmm"
+    android:orientation="vertical"
+    tools:context=".GiaoDienAdd.MainThemVatTu">
+
+    <TextView
+        style="@style/textTile"
+        android:text="@string/vattu"
+        android:textSize="36sp" />
+
+    <TextView
+        style="@style/textContent"
+        android:text="@string/thongtin"
+        android:textSize="27sp" />
+
+    <LinearLayout
+        style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/mavt"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtMaVatTu"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhapmavt"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/tenvt"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtTenVatTu"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhaptenvt"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/dvtinh"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtDVTinh"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhapdvtinh"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/giavc"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtGiaVC"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhapgiavc"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/textContent"
+        android:text="@string/chucnang"
+        android:textSize="27sp" />
+
+    <LinearLayout
+        style="@style/Background"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnThemVatTu"
+            style="@style/btnThem" />
+
+        <Button
+            android:id="@+id/btnXoaVatTu"
+            style="@style/btnXoa"/>
+
+        <Button
+            android:id="@+id/btnSuaVatTu"
+            style="@style/btnSua" />
+
+        <Button
+            android:id="@+id/btnClearVatTu"
+            style="@style/btnClear" />
+    </LinearLayout>
+
+
+</LinearLayout>

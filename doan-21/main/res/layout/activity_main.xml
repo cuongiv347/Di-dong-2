@@ -2,16 +2,18 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    style="@style/LinearLayoutmm"
+    android:background="@drawable/nen"
     android:orientation="vertical"
-    android:layout_weight="1"
     tools:context=".GiaoDien.MainActivity">
 
     <ImageView
-        style="@style/ImageView"
         android:id="@+id/imgLogo"
+        style="@style/ImageView"
+        android:layout_height="259dp"
+        android:background="@drawable/background"
         android:src="@drawable/logo11111" />
+
 
     <LinearLayout
         style="@style/LinearLayout"
@@ -20,25 +22,26 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btnCongtrinh"
-            style="@style/ButtonMain"
-            android:background="@drawable/buttonmain12"
-            android:text="@string/congtrinh" />
-
-        <Button
             android:id="@+id/btnVatTu"
             style="@style/ButtonMain"
             android:background="@drawable/buttonmain12"
             android:text="@string/vattu" />
 
         <Button
-            android:id="@+id/btnPhieuVC"
+            android:id="@+id/btnCongTrinh"
+            style="@style/ButtonMain"
+            android:background="@drawable/buttonmain12"
+            android:text="@string/congtrinh" />
+
+
+        <Button
+            android:id="@+id/btnPhieu"
             style="@style/ButtonMain"
             android:background="@drawable/buttonmain12"
             android:text="@string/phieu" />
 
         <Button
-            android:id="@+id/btnCTPhieuVC"
+            android:id="@+id/btnChiTietPhieu"
             style="@style/ButtonMain"
             android:background="@drawable/buttonmain12"
             android:text="@string/chitietphieu" />
@@ -47,12 +50,13 @@
     <LinearLayout
         style="@style/LinearLayout"
         android:layout_weight="1">
+
         <Button
             android:id="@+id/btnExit"
             style="@style/ButtonMain"
+            android:layout_gravity="center"
             android:background="@drawable/buttonmain12"
             android:text="@string/exit" />
     </LinearLayout>
-
 
 </LinearLayout>

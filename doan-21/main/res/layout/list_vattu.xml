@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutmw"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgVatTu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/iconvattu" />
+
+    <LinearLayout
+        style="@style/LinearLayoutwm"
+        android:layout_weight="1"
+        android:background="#A7EAF3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/mavt"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvMaVatTu"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="VT001"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/tenvt"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvTenVatTu"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Xi măng"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/dvtinh"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvDVTinh"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/giavc"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvGiaVC"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="500000"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

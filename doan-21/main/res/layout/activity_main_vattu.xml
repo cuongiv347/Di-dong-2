@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutmm"
+    android:orientation="vertical"
+    android:background="@drawable/bgvattu"
+    tools:context=".GiaoDien.MainVatTu">
+    <TextView
+        android:text="@string/vattu"
+        style="@style/textContent" />
+
+    <LinearLayout
+        style="@style/LinearLayoutmw">
+        <EditText
+            android:id="@+id/edtTKVatTu"
+            android:layout_weight="1"
+            style="@style/LinearLayoutww"
+            android:hint="@string/timkiemvt"/>
+        <Button
+            android:id="@+id/btnTKVatTu"
+            android:background="@drawable/ic_search_black_24dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvVatTu"
+        style="@style/LinearLayoutmw"
+        android:layout_weight="1"
+        android:padding="10dp"
+        ></ListView>
+    <LinearLayout
+        style="@style/LN_horizontal">
+        <Button
+            android:id="@+id/btnThemVatTu"
+            style="@style/btnTable"
+            android:layout_weight="1"
+            android:text="@string/them"/>
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/btnTable"
+            android:layout_weight="1"
+            android:text="@string/back"/>
+    </LinearLayout>
+</LinearLayout>

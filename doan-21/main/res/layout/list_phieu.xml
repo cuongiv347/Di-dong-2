@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayoutmw"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgPhieu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/iconphieu" />
+
+    <LinearLayout
+        style="@style/LinearLayoutwm"
+        android:layout_weight="1"
+        android:background="#A7EAF3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/maphieu"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvMaPhieu"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="P001"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/ngay"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvNgay"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2/4/2020"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/mact"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvMaCongTrinh_Phieu"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="CT001"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

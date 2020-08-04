@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayoutmw"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgCT"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/iconcongtrinh" />
+
+    <LinearLayout
+        style="@style/LinearLayoutwm"
+        android:layout_weight="1"
+        android:background="#A7EAF3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/mact"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvMaCT"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="CT001"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/tenct"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvTenCT"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Trường học"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/diachict"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvDiaChiCT"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Thủ Đức"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

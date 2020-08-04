@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutmm"
+    android:orientation="vertical"
+    tools:context=".GiaoDienAdd.MainThemPhieu">
+
+    <TextView
+        style="@style/textTile"
+        android:text="@string/phieu" />
+
+    <TextView
+        style="@style/textContent"
+        android:text="@string/thongtin" />
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/maphieu"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtMaPhieu"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhapmaphieu"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/ngay"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtNgayPhieu"
+            style="@style/LinearLayoutww"
+
+            android:layout_width="270dp"
+            android:hint="@string/nhapngay"
+            android:textSize="20sp" />
+
+        <ImageView
+            style="@style/LinearLayoutww"
+            android:layout_width="75dp"
+            android:id="@+id/imgChonNgay"
+            android:layout_height="match_parent"
+            android:layout_gravity="clip_horizontal|center|left"
+            android:src="@drawable/ic_baseline_date_range_24" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/mact"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spMaCongTring_Phieu"
+            style="@style/LinearLayoutmw"
+            android:gravity="center"></Spinner>
+    </LinearLayout>
+
+    <TextView
+        style="@style/textContent"
+        android:text="@string/chucnang" />
+
+    <LinearLayout
+        style="@style/Background"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnThemPhieu"
+            style="@style/btnThem" />
+
+        <Button
+            android:id="@+id/btnXoaPhieu"
+            style="@style/btnXoa" />
+
+        <Button
+            android:id="@+id/btnSuaPhieu"
+            style="@style/btnSua" />
+
+        <Button
+            android:id="@+id/btnClearPhieu"
+            style="@style/btnClear" />
+    </LinearLayout>
+
+
+</LinearLayout>

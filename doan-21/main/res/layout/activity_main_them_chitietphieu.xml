@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutmm"
+    android:orientation="vertical"
+    tools:context=".GiaoDienAdd.MainThemChiTietPhieu">
+
+    <TextView
+        style="@style/textTile"
+        android:text="@string/chitietphieu" />
+
+    <TextView
+        style="@style/textContent"
+        android:text="@string/thongtin" />
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:layout_height="34dp"
+            android:text="@string/sophieu"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtSoPhieuCTP"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhapsophieu"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/maphieu"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spMaPhieu_CTP"
+            style="@style/LinearLayoutmw"
+            android:gravity="center"
+            android:scrollbarSize="20sp"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/mavt"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spMaVatTu_CTP"
+            style="@style/LinearLayoutmw"
+            android:gravity="center"
+            android:scrollbarSize="4sp"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/soluong"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtSoLuongCTP"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhapsoluong"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/LN_horizontal">
+
+        <TextView
+            style="@style/LinearLayoutww"
+            android:text="@string/culy"
+            android:textColor="@color/coloradd"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtCuLyCTP"
+            style="@style/LinearLayoutmw"
+            android:hint="@string/nhapculy"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/chucnang"
+        style="@style/textContent" />
+
+    <LinearLayout
+        style="@style/Background"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnThemCTP"
+            style="@style/btnThem" />
+
+        <Button
+            android:id="@+id/btnXoaCTP"
+            style="@style/btnXoa" />
+
+        <Button
+            android:id="@+id/btnSuaCTP"
+            style="@style/btnSua" />
+
+        <Button
+            android:id="@+id/btnClearCTP"
+            style="@style/btnClear" />
+    </LinearLayout>
+
+</LinearLayout>

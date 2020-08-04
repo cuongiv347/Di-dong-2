@@ -1,12 +1,96 @@
 <resources>
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">#02CCB6</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
     </style>
+
+    <style name="LN_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LN_vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="textTile">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textTileSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="textContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textContentSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/background_textview</item>
+        <item name="android:textColor">@color/colorcontent</item>
+    </style>
+
+    <style name="btnThem">
+        <item name="android:background">@drawable/button1</item>
+        <item name="android:padding">@dimen/sizeRadius</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/add</item>
+        <item name="android:text">@string/them</item>
+    </style>
+
+    <style name="btnXoa">
+        <item name="android:background">@drawable/button1</item>
+        <item name="android:padding">@dimen/sizeRadius</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/delete</item>
+        <item name="android:text">@string/xoa</item>
+    </style>
+
+    <style name="btnSua">
+        <item name="android:background">@drawable/button1</item>
+        <item name="android:padding">@dimen/sizeRadius</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/edit</item>
+        <item name="android:text">@string/sua</item>
+    </style>
+
+    <style name="btnClear">
+        <item name="android:background">@drawable/button1</item>
+        <item name="android:padding">@dimen/sizeRadius</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/clear</item>
+        <item name="android:text">@string/clear</item>
+    </style>
+
+    <style name="lvDelete">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_width">@dimen/imgDelete</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@drawable/ic_delete_forever_black_24dp</item>
+    </style>
+
+
+    <style name="btnTable">
+        <item name="android:background">@drawable/clickbtn_table</item>
+        <item name="android:paddingRight">@dimen/padingBtn</item>
+        <item name="android:layout_margin">@dimen/maginBtn</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/ic_last_page_black_24dp</item>
+    </style>
+
+
 
     <style name="linearDefault">
         <item name="android:layout_width">match_parent</item>
@@ -66,6 +150,7 @@
     <style name="Background">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
         <item name="android:padding">20dp</item>
     </style>
 
@@ -79,6 +164,22 @@
     <style name="LinearLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LinearLayoutww">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LinearLayoutwm">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="LinearLayoutmw">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LinearLayoutmm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
     </style>
 
     <style name="Button">
@@ -113,6 +214,5 @@
         <item name="android:layout_width">133dp</item>
         <item name="android:layout_height">133dp</item>
     </style>
-
 
 </resources>

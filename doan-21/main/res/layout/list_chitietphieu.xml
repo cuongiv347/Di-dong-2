@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayoutmw"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgChiTietPhieu"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/iconchitiet" />
+
+    <LinearLayout
+        style="@style/LinearLayoutwm"
+        android:layout_weight="1"
+        android:background="#A7EAF3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/sophieu"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvSoPhieuCTP"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="SP - 1"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/culy"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvcuLyCTP"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="23 km"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/maphieu"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvMaPhieu_CTP"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="P001"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/mavt"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvMaVatTu_CTP"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="VT001"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/LN_horizontal">
+
+            <TextView
+                style="@style/LinearLayoutww"
+                android:text="@string/soluong"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvSoLuongCTP"
+                style="@style/LinearLayoutww"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="50"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
